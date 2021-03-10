@@ -1,0 +1,19 @@
+body {
+	
+}
+.list {
+	width: 1050px;
+	columns: 3;
+	column-gap: 0;
+}
+
+.item-picture {
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.item-picture:hover {
+	position: relative;
+	z-index: 1;
+	box-shadow: 2px -2px 15px rgba(0,0,0,.5);
+}
