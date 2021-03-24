@@ -5,6 +5,9 @@ body {
 	width: 1050px;
 	columns: 3;
 	column-gap: 0;
+	padding-top: 124px; 
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .item-picture {
@@ -15,5 +18,36 @@ body {
 .item-picture:hover {
 	position: relative;
 	z-index: 1;
-	box-shadow: 2px -2px 15px rgba(0,0,0,.5);
+	box-shadow: 0 0 15px rgba(0,0,0,.5);
 }
+
+.page-header,
+.page-footer {
+	background: #6E6DAF;
+	font-family: roboto;
+	color: FFFFFF;
+}
+
+.page-wrapper{
+	padding-left: 180px;
+	padding-right: 180px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+.page-title{
+	font-size: 20px;
+}
+
+.page-title-accent{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.search {
+	background: #6E6DAF;
+}
+
+.link {
+	text-decoration: none;
+}
+
