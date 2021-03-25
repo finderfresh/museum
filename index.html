@@ -18,6 +18,20 @@
 	</header>
 
 	<main class="page-main">
+		<div class="page-controls">
+			<label class="theme-selector">
+				<div class="theme-selector-label">День</div>
+				<input type="checkbox" class="theme-selector-checkbox" onchange="document.querySelector('.page').classList.toggle('theme-dark')" autocomplete="off">
+				<div class="theme-selector-label">Ночь</div>
+			</label>
+
+			<ul class="paginator">
+				<li class="paginator-item"><a class="paginator-link">1</a></li>
+				<li class="paginator-item"><a class="paginator-link" href="#">2</a></li>
+				<li class="paginator-item"><a class="paginator-link" href="#">3</a></li>
+			</ul>
+		</div>
+
 		<div class="list" data-page="1">
 			<a class="item" href="./img/originals/IMG_0001.jpg"><img class="item-picture" src="./img/thumbs/IMG_0001.jpg" width="350" height="446" alt=""></a>
 			<a class="item" href="./img/originals/IMG_0002.jpg"><img class="item-picture" src="./img/thumbs/IMG_0002.jpg" width="350" height="442" alt=""></a>
@@ -87,15 +101,19 @@
 			<a class="item" href="./img/originals/7.jpg"><img class="item-picture" src="./img/thumbs/7.jpg" width="350" height="418" alt=""></a> -->
 		</div>
 
-		<div class="paginator">
-
+		<div class="page-controls">
+			<ul class="paginator">
+				<li class="paginator-item"><a class="paginator-link">1</a></li>
+				<li class="paginator-item"><a class="paginator-link" href="#">2</a></li>
+				<li class="paginator-item"><a class="paginator-link" href="#">3</a></li>
+			</ul>
 		</div>
 	</main>
 
 	<footer class="page-footer">
 		<div class="page-wrapper">
 			Выставка копий и творческих работ студентов-магистров<br>
-			факультета искусств художественного образования и дизайна.
+			факультета искусств художественного образования и дизайна
 			<a class="link" href="http://art.vspu.ac.ru" target="_blank">Сайт факультета</a>
 		</div>
 	</footer>
